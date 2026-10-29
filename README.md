@@ -202,6 +202,10 @@ docker-compose -f docker-compose-ssl.yml up -d
 
 `docker-compose-ssl.yml` maps host port 443 → container port 443 and mounts your certificate/key. Enable TLS in the application config (see below).
 
+### One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Wiki-Go/)
+
 ---
 
 ## Native TLS Configuration
